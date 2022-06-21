@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         redColor.layer.cornerRadius = redColor.frame.width / 2
         yellowColor.layer.cornerRadius = redColor.frame.width / 2
         greenColor.layer.cornerRadius = redColor.frame.width / 2
+        
+        startButton.layer.cornerRadius = 10
     }
 
     @IBAction func startTapped() {
